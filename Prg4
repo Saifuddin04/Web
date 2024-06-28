@@ -1,0 +1,95 @@
+Program 4: Develop a Web page(s) with suitable HTML elements to demonstrate Bootstrap 
+
+5.0 framework classes for Borders, Margins and Paddings.
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Bootstrap 5.0 Demo</title>
+
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" 
+
+rel="stylesheet">
+
+ <style>
+
+ /* Custom styles to demonstrate spacing */
+
+ .custom-border {
+
+ border: 2px solid red;
+
+ }
+
+ </style>
+
+</head>
+
+<body>
+
+ <div class="container mt-5">
+
+ <h1>Bootstrap 5.0 Demo</h1>
+
+ 
+
+ <h2>Borders</h2>
+
+ <div class="border border-primary p-3 mb-3">
+
+ Border Example
+
+ </div>
+
+ 
+
+ <h2>Margins</h2>
+
+ <div class="border border-dark p-3 mb-3">
+
+ <div class="m-2 bg-info">Margin Example</div>
+
+ </div>
+
+ 
+
+ <h2>Paddings</h2>
+
+ <div class="border border-danger p-3 mb-3">
+
+ <div class="p-2 bg-warning">Padding Example</div>
+
+ </div>
+
+ 
+
+ <h2>Custom Border</h2>
+
+ <div class="custom-border p-3 mb-3">
+
+ Custom Border Example
+
+ </div>
+
+ </div>
+
+ <!-- Bootstrap Bundle with Popper -->
+
+ <script 
+
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-
+
+alpha1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
