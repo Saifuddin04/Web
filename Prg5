@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Containers Example</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        .container-section {
+
+            margin-bottom: 30px;
+
+            padding: 20px;
+
+            border: 1px solid #ff0000;
+
+        }
+
+        .container-section img {
+
+            margin-top: 10px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="container bg-light container-section">
+
+        <h1>Default Container</h1>
+
+        <p>This is a responsive, fixed-width container. It adjusts its size at different breakpoints.</p>
+
+        <img src="https://via.placeholder.com/800x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <div class="container-fluid bg-primary text-white container-section">
+
+        <h1>Fluid Container</h1>
+
+        <p>This container spans the entire width of the viewport, regardless of its size.</p>
+
+        <img src="https://via.placeholder.com/1200x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <div class="container-sm bg-secondary text-white container-section">
+
+        <h1>Small Container</h1>
+
+        <p>This container will be 100% wide until the 'sm' breakpoint is reached (576px).</p>
+
+        <img src="https://via.placeholder.com/500x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <div class="container-md bg-success text-white container-section">
+
+        <h1>Medium Container</h1>
+
+        <p>This container will be 100% wide until the 'md' breakpoint is reached (768px).</p>
+
+        <img src="https://via.placeholder.com/700x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <div class="container-lg bg-danger text-white container-section">
+
+        <h1>Large Container</h1>
+
+        <p>This container will be 100% wide until the 'lg' breakpoint is reached (992px).</p>
+
+        <img src="https://via.placeholder.com/900x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <div class="container-xl bg-warning text-dark container-section">
+
+        <h1>Extra Large Container</h1>
+
+        <p>This container will be 100% wide until the 'xl' breakpoint is reached (1200px).</p>
+
+        <img src="https://via.placeholder.com/1100x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <div class="container-xxl bg-info text-white container-section">
+
+        <h1>Extra Extra Large Container</h1>
+
+        <p>This container will be 100% wide until the 'xxl' breakpoint is reached (1400px).</p>
+
+        <img src="https://via.placeholder.com/1300x200" class="img-fluid" alt="Example image">
+
+    </div>
+
+
+
+    <!-- Bootstrap JS Bundle with Popper -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
