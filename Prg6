@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Bootstrap Grid System Demo</title>
+
+  <!-- Bootstrap CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+    /* Adding some custom styles for demonstration purpose */
+
+    .custom-box {
+
+      border: 1px solid #ff0000;
+
+      padding: 20px;
+
+      margin-bottom: 20px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Bootstrap Grid System Demo</h1>
+
+
+
+    <!-- Four rows -->
+
+    <div class="row">
+
+      <!-- First row -->
+
+      <div class="col">
+
+        <div class="custom-box">Row 1, Column 1</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 1, Column 2</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 1, Column 3</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 1, Column 4</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 1, Column 5</div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="row">
+
+      <!-- Second row -->
+
+      <div class="col">
+
+        <div class="custom-box">Row 2, Column 1</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 2, Column 2</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 2, Column 3</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 2, Column 4</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 2, Column 5</div>
+
+      </div>
+
+    </div>
+
+
+
+<div class="row">
+
+      <!-- Third row -->
+
+      <div class="col">
+
+        <div class="custom-box">Row 3, Column 1</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 3, Column 2</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 3, Column 3</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 3, Column 4</div>
+
+      </div>
+
+      <div class="col">
+
+        <div class="custom-box">Row 3, Column 5</div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!-- Repeat similar structure for rows 3 and 4 -->
+
+
+
+  </div>
+
+
+
+  <!-- Bootstrap JS (Optional) -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
