@@ -1,0 +1,159 @@
+Program 7
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Demo</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Bootstrap 5.0 Demo</h1>
+
+    <!-- Images Section -->
+    <section>
+      <h2>Images</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/home/student/Pictures/crew.jpeg" class="img-fluid
+rounded" alt="Responsive image">
+          <p>Responsive image with rounded corners</p>
+        </div>
+        <div class="col-md-4">
+          <img src="/home/student/Pictures/zoro and sanji.jpeg"
+class="img-thumbnail" alt="Thumbnail image">
+          <p>Thumbnail image</p>
+        </div>
+        <div class="col-md-4">
+          <img src="/home/student/Pictures/luffy.jpeg"
+class="img-fluid rounded-circle" alt="Circular image">
+          <p>Circular image</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="mt-5">
+      <h2>Cards</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/home/student/Pictures/3.jpeg"
+class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">luffy</h5>
+              <p class="card-text">Optimistic and generally
+good-hearted, he is not as dimwitted as many believe him to be, and he
+often demonstrates more understanding than the other characters
+expect. Knowing the danger ahead, Luffy is willing to risk his life to
+become King of the Pirates and protect his crew..</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/home/student/Pictures/2.jpeg"
+class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">Doflamingo</h5>
+              <p class="card-text">He is a major antagonist in the
+Marineford Arc where he took part in the Summit War of Marineford and
+sided with the Marines, along with most of the other Warlords of the
+Sea, and the main antagonist of the Dressrosa Arc and the Dressrosa
+Saga as a whole, being the impetus for the entirety of the saga's
+events..</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/home/student/Pictures/brook.jpeg"
+class="card-img-top" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title">brook</h5>
+              <p class="card-text">Brook was born 90 years ago and was
+the leader of a battle convoy in a "certain kingdom", where he learned
+his fencing and many of his attacks received their names..</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- vertical gutters-->
+    <section class="mt-5">
+      <h2>vertical gutters</h2>
+      <div class="row gy-3">
+        <div class="col-md-1">
+          <div class="p-3 border bg-success">column 1</div>
+        </div>
+        <div class="col-md-2">
+          <div class="p-3 border bg-danger">column 2</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-secondary">column 3</div>
+        </div>
+      </div>
+</section>
+ <!-- Gutters Section -->
+    <section class="mt-5">
+      <h2>horizontal gutters</h2>
+<div class="row gx-2">
+        <div class="col-md-2">
+          <div class="p-2 border bg-info">Custom column padding with
+gutters</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-2 border bg-primary">Custom column padding
+with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 border bg-light">Custom column padding with
+gutters</div>
+        </div>
+      </div>
+</section>
+
+    <!-- Gutters Section -->
+    <section class="mt-5">
+      <h2>combined Gutters</h2>
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="p-3 border bg-success">Custom column padding
+with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-danger">Custom column padding with
+gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border bg-secondary">Custom column padding
+with gutters</div>
+        </div>
+      </div>
+
+        <div class="row gx-2">
+        <div class="col-md-4">
+          <div class="p-2 border bg-info">Custom column padding with
+gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 border bg-primary">Custom column padding
+with gutters</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 border bg-light">Custom column padding with
+gutters</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
